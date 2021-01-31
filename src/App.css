@@ -57,15 +57,16 @@
 }
 
 .second {
-    height: 70vh;
     padding-top: 75px;
     padding-bottom: 50px;
+    background-color: #010101;
+    margin-bottom: 20px;
+    color: white;
 }
 
 .overview {
     margin-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
-    color: #241d24;
     font-size: 20px;
     font-weight: 300;
 }
@@ -74,11 +75,17 @@
     font-size: 24px;
     line-height: 40px;
     padding-bottom: 20px;
+    color: white;
 }
 
 .overview-text {
     font-size: 16px;
     line-height: 26px;
+}
+
+.third {
+    padding-top: 75px;
+    padding-bottom: 20px;
 }
 
 .superia {
@@ -95,6 +102,9 @@ img {
 }
 
 .footer {
-    height: 50vh;
-    padding: 5vh;
+    height: 10vh;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #010101;
+    color: #ff9775;
 }

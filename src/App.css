@@ -1,44 +1,100 @@
 .App {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txt-cen {
     text-align: center;
 }
 
+.txt-l {
+    text-align: left;
+}
+
+.txt-r {
+    text-align: right;
+}
+
 .top {
-    padding-top: 5vh;
-    padding-bottom: 3vh;
-    font-size: 4vh;
+    height: 100vh;
+    background: url("david.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
 }
 
-.intro {
-    padding-bottom: 2vh;
-    font-size: 4vh;
-}
-
-.film-wrapper0 {
-    background-color: #f7f7f7;
-    padding: 20px 0px;
-}
-
-.film-wrapper1 {
-    background-color: #fff;
-    padding: 20px 0px;
-}
-
-.film-title {
-    font-size: 3vh;
+.titlebar {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .row {
-    padding: 30px;
+    --bs-gutter-x: 0;
 }
 
-.img {
-    padding-bottom: 2vh;
+.insta-title {
+    padding-top: 3vh;
+    font-size: 4vh;
+    opacity: 90%;
+    color: white;
 }
 
-h2 {
+.dialog {
+    padding-top: 3vh;
+    height: 8vh;
+    width: auto;
+}
+
+.tagline {
+    font-size: 3vh;
+    height: 30vh;
+    padding: 67px;
+    padding-top: 66vh;
+}
+
+.explore {
+    padding-top: 5vh;
+    font-size: 3vh;
+}
+
+.second {
+    height: 70vh;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.overview {
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #241d24;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.overview-tagline {
+    font-size: 24px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.overview-text {
     font-size: 16px;
+    line-height: 26px;
+}
+
+.superia {
+    background-color: #a53c49;
+    color: white;
+}
+
+.film-title {
+
 }
 
 img {
     width: 100%;
+}
+
+.footer {
+    height: 50vh;
+    padding: 5vh;
 }

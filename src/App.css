@@ -22,89 +22,68 @@
     background-position: center;
 }
 
-.titlebar {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.row {
-    --bs-gutter-x: 0;
-}
-
-.insta-title {
-    padding-top: 3vh;
-    font-size: 4vh;
-    opacity: 90%;
-    color: white;
-}
-
 .dialog {
-    padding-top: 3vh;
-    height: 8vh;
+    height: 6vh;
     width: auto;
 }
 
+.titlebar {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 20px;
+}
+
+.subbar {
+    padding-top: 71vh;
+}
+
 .tagline {
-    font-size: 3vh;
-    height: 30vh;
-    padding: 67px;
-    padding-top: 66vh;
+    font-size: 2.5vh;
 }
 
 .explore {
-    padding-top: 5vh;
-    font-size: 3vh;
+    padding-top: 20px;
 }
 
-.second {
-    padding-top: 75px;
-    padding-bottom: 50px;
-    background-color: #010101;
-    margin-bottom: 20px;
-    color: white;
+.shop-now {
+    background-color: #18181e;
+    border-color: #18181e;
+    color: #fff;
+    padding: 8px 28px;
+    font-size: 15px;
 }
 
-.overview {
-    margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.overview-tagline {
-    font-size: 24px;
-    line-height: 40px;
-    padding-bottom: 20px;
-    color: white;
-}
-
-.overview-text {
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.third {
-    padding-top: 75px;
-    padding-bottom: 20px;
-}
-
-.superia {
-    background-color: #a53c49;
-    color: white;
-}
-
-.film-title {
-
-}
 
 img {
     width: 100%;
 }
 
+.colorsquare {
+    background-color: #18181e;
+    color: white;
+    height: 100vw;
+    display: table-cell;
+    width: 100vw;
+    vertical-align: middle;
+}
+
+.blocktitle {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.blocksubtitle {
+    font-size: 16px;
+}
+
 .footer {
-    height: 10vh;
+    height: 20vh;
     padding: 20px;
     padding-bottom: 50px;
     background-color: #010101;
-    color: #ff9775;
+    color: white;
+}
+
+.bg-black {
+    background-color: #010102;
 }

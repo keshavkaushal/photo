@@ -22,6 +22,10 @@
     background-position: center;
 }
 
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0, 0, 0, 0.4);
+}
+
 .dialog {
     height: 6vh;
     width: auto;
@@ -34,11 +38,13 @@
 }
 
 .subbar {
-    padding-top: 71vh;
+    padding-top: 60vh;
 }
 
 .tagline {
-    font-size: 2.5vh;
+    text-align: left;
+    font-size: 5vh;
+    font-weight: 700;
 }
 
 .explore {
@@ -46,7 +52,7 @@
 }
 
 .shop-now {
-    background-color: #18181e;
+    background-color: #58586d;
     border-color: #18181e;
     color: #fff;
     padding: 8px 28px;
@@ -59,31 +65,105 @@ img {
 }
 
 .colorsquare {
-    background-color: #18181e;
     color: white;
     height: 100vw;
-    display: table-cell;
-    width: 100vw;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorsquare-sm {
+    height: 50vw;
 }
 
 .blocktitle {
-    font-size: 24px;
+    font-size: 22px;
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 .blocksubtitle {
     font-size: 16px;
 }
 
-.footer {
-    height: 20vh;
-    padding: 20px;
-    padding-bottom: 50px;
-    background-color: #010101;
+.rediscover {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.3)), url("rooftop.jpg");
+    height: 100vw;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    line-height: 32px;
     color: white;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
+.blocktitle-big {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+
 .bg-black {
-    background-color: #010102;
+    background-color: #18181e;
+}
+
+.bg-darkblack {
+    background-color: #010101;
+}
+
+.bg-green {
+    background-color: darkseagreen;
+}
+
+.img-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.film {
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-title {
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.film-slideshow {
+    padding: 30px;
+}
+
+.ig-logo {
+    width: 40px;
+    filter: invert(1);
+    opacity: 0.9;
+    margin-top: 28px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
 }
